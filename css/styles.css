@@ -764,7 +764,7 @@ font-size: 12px;
 font-style: normal;
 line-height: 14px;
 letter-spacing: 0.04em;
-display: flex;
+
 align-items: center;
 }
 
@@ -775,7 +775,7 @@ line-height: 1.17;
 font-size: 12px;
 font-weight: 400;
 text-decoration-line: underline;
-display: flex;
+
 }
 
 .check-text span {
