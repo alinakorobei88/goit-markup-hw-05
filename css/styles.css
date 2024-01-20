@@ -712,7 +712,7 @@ margin-bottom: 16px;
 }
 
 .modal-input:focus + .modal-icon {
-    stroke: #4D5AE5;
+    fill: #4D5AE5;
 }
 
 .modal-label {
