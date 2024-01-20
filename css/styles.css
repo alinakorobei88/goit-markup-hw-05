@@ -551,6 +551,7 @@ margin-bottom: 16px;
 
 .footer-form {
     display: flex;
+    gap: 24px;
 }
 
 .footer-container-subscribe {
@@ -563,7 +564,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5;
-letter-spacing: 0.03em;
+letter-spacing: 0.02em;
 margin-bottom: 16px;
 }
 
@@ -572,18 +573,21 @@ width: 264px;
 height: 40px;
 padding-left: 16px;
 border-radius: 4px;
-border: 1px solid #FFF;
+border: 1px solid #ffffff;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 background-color: transparent;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
 
 }
 
 .footer-form-input::placeholder {
-    color: #FFF;
+    color: #ffffff;
 }
 
 .button-icon-mail {
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     border-radius: 4px;
     background: #4D5AE5;
@@ -601,7 +605,12 @@ background-color: transparent;
     border: none;
     cursor: pointer;
     display: flex; 
-    margin-left: 24px; 
+    
+
+}
+
+.email-icon {
+    margin-left: 16px;
 }
 
 .backdrop {
